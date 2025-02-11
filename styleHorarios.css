@@ -1,0 +1,164 @@
+/* Estilos para el fondo de la página */
+body {
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  background-image: url('Imagenes/src/FotosGYM/Fondo.jpg'); /* URL de la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+/* Estilos para centrar la imagen y el título en el encabezado */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 100px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente */
+  margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.title {
+  color: white; /* Texto blanco */
+  font-family: Verdana, Geneva, sans-serif; /* Fuente Verdana */
+  font-size: 14px; /* Tamaño de fuente 14px */
+}
+ 
+.subtitle {
+  color: white; 
+  font-family: Verdana, Geneva, sans-serif; 
+  font-size: 12px;
+}
+ 
+
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* Estilos para las filas de la tabla */
+table tr {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para la fila de encabezado de la tabla */
+table th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilos para las celdas de la tabla */
+table td {
+  padding: 10px;
+}
+
+
+/* Estilos para las celdas de la tabla */
+table td {
+  padding: 10px;
+}
+
+/* Estilos para los estados "ATENDIDO" */
+table td.estado-atendido {
+  background-color: green; /* Fondo verde para el estado "ATENDIDO" */
+  color: white; /* Texto blanco */
+  font-weight: bold; /* Negrita */
+}
+
+/* Estilos para los estados "RESERVADO" */
+table td.estado-reservado {
+  background-color: orange; /* Fondo naranja para el estado "RESERVADO" */
+  color: blue; /* Texto azul */
+  font-weight: bold; /* Negrita */
+}
+
+/* Estilos alternos para filas */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el texto "Consultar entrenamientos por fecha" */
+.consulta-entrenamientos-label {
+  background-color: #007bff; /* Fondo azul */
+  color: white; /* Texto blanco */
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el botón "INICIO" */
+.btn-inicio {
+  background-color: #28a745; /* Color de fondo verde */
+  color: white; /* Texto blanco */
+  padding: 3px 10px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave al cambiar el color y tamaño */
+}
+
+.btn-inicio:hover {
+  background-color: #007bff; /* Cambia de color al pasar el mouse a verde */
+  /*transform: scale(1.1); /* Hace un pequeño zoom */*/
+}
+
+/* Estilos para el contenedor del encabezado */
+.header-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el contenedor de consulta */
+.consulta-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos para los botones */
+.btn-consultar {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  padding: 8px 16px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave al cambiar el color y tamaño */
+  margin-left: 5px; /* Margen izquierdo entre los botones */
+}
+.btn-consultar:hover {
+  background-color: #B514E4; /* Cambia de color al pasar el mouse a morado */
+  /*transform: scale(1.1); /* Hace un pequeño zoom */*/
+} 
+
+.btn-agendar {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  padding: 8px 10px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave al cambiar el color y tamaño */
+  margin-left: 5px; /* Margen izquierdo entre los botones */
+}
+.btn-agendar:hover {
+  background-color: #B514E4; /* Cambia de color al pasar el mouse a morado */
+  /*transform: scale(1.1); /* Hace un pequeño zoom */*/
+}
+
+/* Estilos para el título */
+.subtitle {
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top: 20px; /* Margen superior */
+}

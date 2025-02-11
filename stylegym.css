@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('Imagenes/src/FotosGYM/Fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 8px; /* Ajustar según se desee */
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+} 
+
+/* Estilos para los contenedores de productos */
+.product-card {
+  width: 350px;
+  height: 350px; /* Ajustar la altura según sea necesario */
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  transition: transform 0.2s ease;
+  box-sizing: border-box; /* Asegurar que el borde no afecte el tamaño total */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para las imágenes dentro de los contenedores de productos */
+.product-card img {
+  width: 50%;
+  height: 50%; /* Ajustar la altura según sea necesario */
+  object-fit: contain; /* Ajustar la imagen manteniendo la relación de aspecto */
+  margin-bottom: 5px;
+}
+
+/* Estilos para los textos */
+h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para la paginación */
+.pagination {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estilos para centrar la imagen y el título en el encabezado */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 100px; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente */
+  margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}
+
+/* Estilos para el título "Lista de Productos" */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+
+/* Estilos para el botón "Ver detalles" */
+.details-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.btn-agendar {
+  background-color:  #4CAF50; /* Color de fondo verde */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero al pasar el mouse */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave al cambiar el color y tamaño */
+}
+.btn-agendar:hover {
+  background-color: #B514E4; /* Cambia de color al pasar el mouse a morado */
+}
+.details-btn:hover {
+  background-color: #B514E4;/* Cambia de color al pasar el mouse a morado */
+}
